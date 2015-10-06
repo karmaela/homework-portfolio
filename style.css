@@ -1,0 +1,100 @@
+nav {
+	text-align: center;
+	color: #707070;
+	font-size: 14pt;
+	font-style: bold;
+	font-family: sans-serif;
+	color: #23635a;
+	padding-left: 50px;
+}
+body {
+	text-align: left;
+	vertical-align: baseline;
+	background: url(./bg.png);
+	max-width: 980px;
+	margin: auto;
+	margin-top: 10px;
+	background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: 1% 100%;
+}
+a:link {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	color: #707070;
+}
+a {
+	color: #23635a;
+	font-style: bold;
+	font-size: inherit;
+	font-family: sans-serif;
+	color: #23635a;
+}
+h1 {
+	font-size: 25pt;
+	font-variant: bold;
+	font-family: sans-serif;
+	color: #23635a;
+	text-align: center;
+}
+h2 {
+	font-size: 17pt;
+	font-family: sans-serif;
+	font-style: italic;
+	color: #23635a;
+}
+h4 {
+	font-size: 8pt;
+	font-family: sans-serif;
+	color: #23635a;
+	line-height: 12pt;
+}
+h5 {
+	font-size: 40pt;
+	font-family: sans-serif;
+	text-align: center;
+	color: #23635a;
+	line-height: 50pt;
+}
+p {
+	font-size: 12pt;
+	font-family: sans-serif;
+	color: #707070;
+	line-height: 20pt;
+}
+ul {
+	font-size: 10pt;
+	font-family: sans-serif;
+	color: #707070;
+	line-height: 15pt;
+}
+img.profile {
+	width: 250px;
+	float: right;
+}
+img.portfolio {
+	width: 100%;
+	float: left;
+}
+.caption {
+	width: 48%;
+	float: left;
+	padding-right: 10px
+}
+.social {
+	float: right;
+	display: inline-block;
+}
+@media screen and (max-width: 550px){
+	img#logo {
+		width: 100%;
+		margin: auto;
+	}
+	img.portfolio {
+		width: 100%;
+	}
+}
